@@ -1,5 +1,4 @@
-let base = prompt("Ingrese la base", 0);
-let expo = prompt("Ingrese el exponente", 0);
 
+let numero = Math.random();
 
-console.log(base + " elevado a la " +expo+ " es igual a ", Math.pow(base, expo));
+console.log("El número generado es:", numero);
